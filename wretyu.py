@@ -20,3 +20,20 @@ print(size)
 (2, 4, 5)
 
 print('ssss')
+
+# 20181114
+
+# some more options on files
+import os
+
+dir = 'h:\\'
+files = os.listdir(dir)
+print(files)
+
+
+for f in files:
+    if os.path.isdir(os.path.join(dir, f)):
+        print(f)
+
+
+os.path.
